@@ -3046,6 +3046,7 @@ h3 {
 
 /* line 10, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_service.scss */
 .service_area .single_service {
+  height:350px;
   padding: 48px 35px 45px 35px;
   border: 1px solid #E8E8E8;
   -webkit-transition: 0.3s;
