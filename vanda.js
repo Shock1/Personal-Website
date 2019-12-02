@@ -1,5 +1,5 @@
 VANTA.NET({
-  el: "#home_animation",
+  el: "#home1",
   color: #red,
   backgroundColor: 0xd1014,
   maxDistance: 23.00,
