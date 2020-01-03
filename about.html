@@ -147,6 +147,13 @@
                         <div class="download_cv">
                             <a href="mailto: shock.dustmurodov@gmail.com" class="boxed-btn3">Send Email</a>
                         </div>
+                        <button onclick="chromata.start()";>Try</button>
+                        <script type="text/javascript">
+                             function chromata.start() {
+ var imageElement = document.querySelector('chromataImg');
+        var chromata = new Chromata(imageElement); }
+                        </script>
+                        <img id="chromataImg" src="img/about/chromata.png">
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-6">
@@ -335,6 +342,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/gijgo.min.js"></script>
+    <script src="path/to/chromata.min.js"></script>
+
+
 
     <!--contact js-->
     <script src="js/contact.js"></script>
