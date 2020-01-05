@@ -45,6 +45,11 @@
                                 </a>
                             </div>
                         </div>
+                        <div onclick="toggle_visibility('foo');" id="foo">
+                            <div id="note">
+                                The website is under development. Double-click to remove the notification.
+                            </div>
+                        </div>
                         <div class="col-xl-6 col-lg-7">
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
@@ -448,6 +453,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
+   <script type="text/javascript">
+    <!--
+    function toggle_visibility(foo) {
+       var e = document.getElementById("foo");
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+    //-->
+  </script>
     <!--/ footer end  -->
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
