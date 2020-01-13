@@ -6812,4 +6812,12 @@ h6 {
   width:11%;
   margin-left: 11%;
 }
+
+.websiteBtn{
+  text-align: center;
+  margin:0px;
+}
+.aboutHR{
+  border-bottom: 1px solid #615CFD;
+}
 /*# sourceMappingURL=style.css.map */
