@@ -1,6 +1,6 @@
 <?php
 
-    $mailTo = "shock.dustmurodov@yahoo.com";
+    $to = "shock.dustmurodov@yahoo.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -13,7 +13,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your personal website.";
+    $subject = "You have a message from your personal.";
 
     $logo = 'img/logo.png';
     $link = '#';
