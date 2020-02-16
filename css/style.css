@@ -6822,3 +6822,34 @@ h6 {
   border-bottom: 1px solid #615CFD;
 }
 /*# sourceMappingURL=style.css.map */
+.pulse{
+  width: 92px;
+  height: 54px;
+  background-image: linear-gradient(to right bottom, #615cfd, #2351cd, #00429b, #003068, #001d38);
+  border-radius: 28%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate 
+{
+  0% 
+  {
+    box-shadow: 0 0 0 0 rgb(102, 102, 255), 0 0 0 0 rgb(102, 102, 255);
+  }
+  40% 
+  {
+    box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 0 rgb(102, 102, 255);
+  }
+  80% 
+  {
+    box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);
+  }
+  100% 
+  {
+    box-shadow: 0 0 0 0 rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);
+  }
+}
