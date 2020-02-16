@@ -6825,7 +6825,7 @@ h6 {
 .pulse{
   width: 92px;
   height: 54px;
-  background-image: linear-gradient(to right bottom, #615cfd, #2351cd, #00429b, #003068, #001d38);
+  background-image: linear-gradient(to right, #d08bf5, #b094fb, #8f9bfc, #6ea0f8, #4fa3f0);
   border-radius: 28%;
   color: #fff;
   cursor: pointer;
