@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -101,7 +102,7 @@
     <div class="bradcam_area bradcam_bg_1">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12" data-aos="fade-up">
                     <div class="bradcam_text text-center">
                         <h3>About Me</h3>
                     </div>
@@ -123,7 +124,7 @@
                             </div>
                         </div>
                     -->
-                        <div class="video_text text-center">
+                        <div class="video_text text-center" data-aos="zoom-out">
                             <p>My name is Shokhrukh Dustmurodov. I am a designer, web developer, cat  <br>
                                 lover and I would like to share with you a little bit about myself.</p>
                         </div>
@@ -140,7 +141,7 @@
                 About
         </div>
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center" data-aos="fade-right">
                 <div class="col-xl-6 col-md-6">
                     <div class="about_e_details">
                         <h3>About me</h3>
@@ -386,9 +387,9 @@
                     <div class="col-xl-6 col-md-6">
                         <div class="socail_links">
                             <ul>
-                                <li><a href="https://www.facebook.com/profile.php?id=100014177434948"> <i class="fa fa-facebook"></i> </a></li>
-                                <li><a href="https://www.linkedin.com/in/shokhrukh1"> <i class="fa fa-linkedin"></i> </a></li>
-                                <li><a href="https://instagram.com/i.3hock?igshid=1hak16m8sfzrf"> <i class="fa fa-instagram"></i> </a></li>
+                                <li data-aos="flip-left"><a href="https://www.facebook.com/profile.php?id=100014177434948"> <i class="fa fa-facebook"></i> </a></li>
+                                <li data-aos="flip-left"><a href="https://www.linkedin.com/in/shokhrukh1"> <i class="fa fa-linkedin"></i> </a></li>
+                                <li data-aos="flip-left"><a href="https://instagram.com/i.3hock?igshid=1hak16m8sfzrf"> <i class="fa fa-instagram"></i> </a></li>
                             </ul>
                         </div>
                     </div>
@@ -430,7 +431,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/gijgo.min.js"></script>
-    <script src="path/to/chromata.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 
 
 
