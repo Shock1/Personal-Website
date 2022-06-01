@@ -1387,6 +1387,7 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
 }
 
 /* line 16, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
